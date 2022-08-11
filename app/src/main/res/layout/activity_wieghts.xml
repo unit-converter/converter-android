@@ -13,12 +13,14 @@
         android:layout_height="72dp"
         android:layout_marginTop="276dp"
         android:ems="10"
-        android:hint="enter the weight"
+        android:hint="@string/enter_the_weight"
         android:inputType="number"
+        android:textColorHint="#FFE0B2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView"
